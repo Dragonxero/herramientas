@@ -1,0 +1,165 @@
+body
+{
+    background-color: aliceblue;
+}
+
+wrapper
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #2f2f2f;
+    position:relative;
+    align-content: center;
+}
+
+#nav-verde
+{
+    border-top: 4px solid #00CC00;
+    box-shadow: inset 0px 0px 1px #39e639;
+    color: #00CC00;
+    opacity: 0.8;
+}
+
+#nav-verde:hover
+{
+    color: #00CC00;
+    box-shadow: inset 0px -3px 3px #00CC00;
+    opacity: 1.0;
+    padding: 12px 30px;
+}
+
+#nav-naranjo
+{
+    border-top: 4px solid #ff7400;
+    box-shadow: inset 0px 0px 1px #ffb273;
+    color: #ff7400;
+    opacity: 0.8;
+}
+
+#nav-naranjo:hover
+{
+    color: #ff7400;
+    box-shadow: inset 0px -3px 3px #ffb273;
+    opacity: 1.0;
+    padding: 12px 30px;
+}
+
+#nav-azul
+{
+    border-top: 4px solid #009999;
+    box-shadow: inset 0px 0px 1px #33cccc;
+    color: #009999;
+    opacity: 0.8;
+}
+
+#nav-azul:hover
+{
+    color: #009999;
+    box-shadow: inset 0px -3px 3px #33cccc;
+    opacity: 1.0;
+    padding: 12px 30px;
+}
+
+#nav-rojo
+{
+    border-top: 4px solid #ff0000;
+    box-shadow: inset 0px 0px 1px #ff4040;
+    color: #ff0000;
+    opacity: 0.8;
+}
+
+#nav-rojo:hover
+{
+    color: #FF0000;
+    box-shadow: inset 0px -3px 3px #FF0000;
+    opacity: 1.0;
+    padding: 12px 30px;
+}
+
+.nav-section
+{
+    padding: 12px 23px;
+    transition: box-shadow 0.5s ease;
+    transition: padding 0.1s ease;
+    text-decoration: none;
+}
+
+/*---- CROSS BROWSER DROPDOWN MENU ----*/
+ul
+{
+    list-style: none;
+}
+
+ul.drop a { 
+  display:block;
+  color: #ddd;
+  font-family: Calibri;
+  text-decoration: none;
+  width: 250px;
+  text-align: center;
+}
+
+ul.drop ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #fff;
+    background: ;
+    color: #fff;
+}
+
+ul.drop
+{
+    position: relative;
+    z-index: 200;
+    float: left;
+}
+
+ul.drop li
+{
+    float: left;
+    line-height: 1.4em;
+    vertical-align: middle;
+    zoom: 1;
+    padding: 5px 10px;
+}
+
+ul.drop li.hover,ul.drop li:hover
+{
+    position: relative;
+    z-index: 599;
+    cursor: default;
+    background: #1e7c9a;
+}
+
+ul.drop ul
+{
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 250px;
+    background:;
+    border: 1px solid #fff;
+}
+
+ul.drop ul li
+{
+    float: none;
+}
+
+ul.drop ul ul
+{
+    top: -2px;
+    left: 100%;
+}
+
+ul.drop li:hover > ul
+{
+    visibility: visible
+}
+
+
+
